@@ -13,6 +13,11 @@ public class PipeSpawner : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+       
+    }
+
+    public void startSpawning()
+    {
         StartCoroutine(SpawnPipe());
     }
 
